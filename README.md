@@ -1,2 +1,2 @@
-### Accessibility Quiz project
+### Quiz project
 ###### HTML & CSS
