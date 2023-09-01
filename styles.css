@@ -21,7 +21,7 @@ header {
 
 h1 {
     color: #f1be32;
-    font-size: min(5vw, 1, 2em);
+    font-size: min(5vw, 1.2em);
 }
 
 nav {
@@ -33,4 +33,10 @@ nav {
 nav>ul {
     display: flex;
     justify-content: space-evenly;
+}
+
+h1,
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 4px solid #dfdfe2;
 }
