@@ -80,10 +80,22 @@
             <section role="region" aria-labelledby="css-questions">
                 <h2 id="css-questions">CSS</h2>
                 <div class="formrow">
-                    <div class="question-block"></div>
-                    <div class="answer"></div>
-                    <div class="question-block"></div>
-                    <div class="answer"></div>
+                    <div class="question-block">
+                        <label for="customer">Are you a frontend developer?</label>
+                    </div>
+                    <div class="answer">
+                        <select name="customer" id="customer" required>
+                            <option value="">Select an option</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="question-block">
+                        <label for="css-questions">Do you have any questions:</label>
+                    </div>
+                    <div class="answer">
+                        <textarea name="css-questions" id="css-questions" cols="30" rows="15" placeholder="Who is flexbox..."></textarea>
+                    </div>
                 </div>
             </section>
         </form>
